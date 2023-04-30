@@ -1,0 +1,59 @@
+HELP.md
+target/
+PAT
+overlays/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### Eclipse IDE ###
+.settings
+.project
+.classpath
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
+
+### Maven Flatten plugin ###
+.flattened-pom.xml
+
+# Log files
+*.log
+
+# TestNG output folder
+test-output/
+
+# Java class files
+*.class
+
+# Archive files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
